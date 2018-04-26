@@ -54,10 +54,10 @@
     }
     
     .cover-container {
-        max-width: 42em;
+        max-width: 55em;
     }
     /*
-* Header
+* Head
 */
     
     .masthead {
@@ -158,3 +158,18 @@
     .masthead-brand {
         margin-left: -100px;
     }
+    
+    .tech-news {
+        color: black;
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+    }
+    
+    .tech-news a {
+        color: green;
+    }
+    
+    //    .tech-news>.card {
+    //         padding: 25px;
+    //     }
