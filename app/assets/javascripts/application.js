@@ -18,6 +18,6 @@
 //= require gritter
 //= reguire cable
 //= require turbolinks
-//= require_tree .
 //= require popper
 //= require bootstrap-sprockets
+//= require_tree .
