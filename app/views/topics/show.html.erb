@@ -4,6 +4,7 @@
           <h1><%= @topic.title%></h1>
           <%= paginate @blogs %>
           <%= render @blogs %>
+           <span><%= link_to 'Back', topics_path, class:"btn btn-dark btn-block" %></span>
           <nav class="blog-pagination">
             <%= paginate @blogs %>
           </nav>

@@ -6,7 +6,9 @@
            <%= @blog.topic.title %>
          </p>
          <% if logged_in?(:site_admin) %> 
-         <%= link_to 'Edit', edit_blog_path(@blog), class:'btn btn-sm btn-outline-secondary space-bottom' %>
+         <%= link_to 'Edit', edit_blog_path(@blog),
+               class:'btn btn-sm btn-outline-secondary space-bottom' 
+          %>
          <% end %>
          <p><%= @blog.body %></p>
           <!-- start of comment form -->
