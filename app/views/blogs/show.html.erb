@@ -10,7 +10,7 @@
                class:'btn btn-sm btn-outline-secondary space-bottom' 
           %>
          <% end %>
-         <p><%= @blog.body %></p>
+         <p><%= markdown (@blog.body) %></p>
           <!-- start of comment form -->
          <%= render 'comments/comment_form' %>
         <!-- end of comment form -->
