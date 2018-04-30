@@ -1,7 +1,8 @@
 <main role="main">
       <div class="row">
-        <div class="col-md-8 blog-main">
+        <div class="col-md-12 blog-main">
           <h1 class="text-center" >Topics</h1>
+          <hr>
             <%= paginate @topics %>
             <span>
               <%= link_to 'Create New Topic', new_topic_path, 
