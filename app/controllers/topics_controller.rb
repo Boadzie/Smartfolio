@@ -1,5 +1,6 @@
 class TopicsController < ApplicationController
   before_action :set_topic, only: [:show, :edit, :update, :destroy]
+  before_action :set_sidebar_topic
   layout 'blog'
 
   def index
@@ -68,5 +69,10 @@ class TopicsController < ApplicationController
     def topic_params
       params.require(:topic).permit(:title)
     end
+
+    def set_sidebar_topic
+      @side_bar_topic = Topic.has_blogs      
+    end
+    
 
 end
