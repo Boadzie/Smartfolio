@@ -10,17 +10,7 @@
           <span class="breadcrumb-item active"><%= @blog.title %></span><br>
           
         </nav>
-        <nav class="breadcrumb">
-          <% if logged_in?(:site_admin) %> 
-              <span class="">
-              <%= link_to "Edit", edit_blog_path(@blog),
-                    class:'btn btn-outline-secondary' 
-                %>
-              <%= link_to "Delete", @blog, method: :delete, data: {confirm: "Are you sure?"},
-                  class:'btn btn-outline-danger' 
-              %>
-              <% end %>
-         </nav>
+        
          <p><%= markdown (@blog.body) %></p>
           <!-- start of comment form -->
          <%= render 'comments/comment_form' %>
