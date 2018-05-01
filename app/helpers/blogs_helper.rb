@@ -36,7 +36,6 @@ module BlogsHelper
             image: true,
             linebreak: true,
             link: true,
-            raw_html: true,
             triple_emphasis: true,
             strikethrough: true,
             superscript: true,
