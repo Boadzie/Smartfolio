@@ -39,6 +39,7 @@
             transform: translateX(-50%) translateY(-50%);
             background-color: #333;
             background-size: cover;
+            overflow: auto;
         }
         
         body {
@@ -188,4 +189,21 @@
         
         .profile-img {
             border: 1px solid grey;
+        }
+        
+        .img-circle {
+            border-radius: 50%;
+        }
+        
+        .space-bottom {
+            margin-bottom: 20px;
+        }
+        
+        .space {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .top {
+            margin-top: 30px;
         }
