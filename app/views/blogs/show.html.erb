@@ -5,8 +5,6 @@
          <nav class="breadcrumb">
           <%= link_to 'Home', root_path, class:"breadcrumb-item" %>
           <%= link_to  @blog.topic.title, topic_path(@blog.topic), class:"breadcrumb-item" %>
-          <a class="breadcrumb-item" href="#">Library</a>
-          <a class="breadcrumb-item" href="#">Data</a>
           <span class="breadcrumb-item active"><%= @blog.title %></span><br>
           
         </nav>
