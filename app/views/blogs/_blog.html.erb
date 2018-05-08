@@ -3,5 +3,5 @@
     <p class="blog-post-meta space-bottom">Published <%= distance_of_time_in_words(blog.created_at, Time.now) %> ago</p>
     <%= render partial: "blogs/admin_actions", locals: {blog: blog} %>
     <br> <br>
-    <p class="blog-post-meta"><%= blog.body %></p>
+    <p class="blog-post-meta text-dark"><%= blog.body %></p>
  </div><!-- /.blog-post -->
