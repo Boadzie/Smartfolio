@@ -68,3 +68,5 @@ gem 'redis', '~> 3.3', '>= 3.3.1'
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
 # gem 'smartfolio_view_tool', git:'https://github.com/Boadzie/SmartfolioViewTool'
+
+ruby "2.5.0"
