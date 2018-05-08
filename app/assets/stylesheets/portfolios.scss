@@ -5,6 +5,31 @@
     --jumbotron-padding-y: 3rem;
 }
 
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow: auto;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed', sans-serif;
+    src: font-url('RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto Slab', serif;
+    src: font-url('RobotoSlab-Regular.ttf');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+{
+    font-family: 'Roboto Slab', serif;
+}
+
 .jumbotron {
     padding-top: var(--jumbotron-padding-y);
     padding-bottom: var(--jumbotron-padding-y);

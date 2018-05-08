@@ -1,11 +1,11 @@
 <main role="main">
       <div class="row">
-        <div class="col-md-8 blog-main">
+        <div class="col-md-12 blog-main">
          <h1>New Blog</h1>
          <p><%= render 'form', blog: @blog %></p>
+         <%= link_to 'Back', blogs_path, class:"btn btn-dark btn-block" %>
         </div><!-- /.blog-main -->
       </div><!-- /.row -->
-     <%= link_to 'Back', blogs_path, class:"btn btn-dark" %>
 </main><!-- /.container -->
 
 

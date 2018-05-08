@@ -5,7 +5,10 @@
           <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p><br>
           <p>
             <% if logged_in?(:site_admin) %>
-            <%= link_to "Write New Blog", new_blog_path, class:"btn btn-outline-primary"  %>
+            <span>
+              <%= link_to "Write New Blog", new_blog_path, class:"btn btn-outline-primary"  %>
+              <%= link_to 'Topics', topics_path, class:"btn btn-outline-primary" %>
+            </span>
             <% end %>
           </p>
         </div>

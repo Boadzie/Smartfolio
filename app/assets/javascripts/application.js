@@ -16,6 +16,8 @@
 //= require html.sortable
 //= require cocoon
 //= require gritter
+//= require lib/typed
+//= require typed-implementation
 //= reguire cable
 //= require turbolinks
 //= require popper

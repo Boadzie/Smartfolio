@@ -6,6 +6,7 @@
     <title><%= @page_title %> </title>
     <%= csrf_meta_tags %>
     <meta name="keywords" content="<%= @seo_keywords %>" />
+     <%= favicon_link_tag "other_favicon.ico" %>
     <%= stylesheet_link_tag    'blogs', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -13,7 +14,6 @@
   <body>
     <div class="container">
       <%= render 'shared/blog_header' %>
-      <%= render 'shared/blog_nav' %>
     <div class="row">
        <div class="col-md-8">
          <%= yield %>
@@ -26,8 +26,7 @@
     <%= render 'shared/blog_footer' %>
 
   <!--   <#%= render 'shared/nav', location: 'bottom' %> -->
-    <hr>
-    <%= source_helper("blog") %>
+    
   </div>
   </body>
 </html>

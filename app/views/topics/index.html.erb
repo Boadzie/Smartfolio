@@ -1,0 +1,20 @@
+<main role="main">
+      <div class="row">
+        <div class="col-md-12 blog-main">
+          <h1 class="text-center" >Topics</h1>
+          <hr>
+            <%= paginate @topics %>
+            <span>
+              <%= link_to 'Create New Topic', new_topic_path, 
+              class:"btn btn-dark btn-block mb-4" 
+              %>
+            </span>
+            <%= render @topics %>
+            <nav class="blog-pagination">
+                <%= paginate @topics %>
+            </nav>
+        </div><!-- /.blog-main -->
+      </div><!-- /.row -->
+
+</main><!-- /.container -->
+
