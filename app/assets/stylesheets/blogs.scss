@@ -12,6 +12,7 @@
 .blog-header-logo {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-size: 2.25rem;
+    margin-left: -40px;
 }
 
 .blog-header-logo:hover {
@@ -129,7 +130,7 @@ h6,
     color: #999;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 30em) {
     .blog-title {
         font-size: 3.5rem;
     }
@@ -211,11 +212,15 @@ h6,
     font-size: 1em;
 }
 
-.big nav {
-    font-size: 1.25em;
+.big {
+    font-size: 1.45em;
     font-weight: bolder;
 }
 
 .img-circle {
     border-radius: 50%;
+}
+
+.left {
+    margin-left: -40px;
 }
